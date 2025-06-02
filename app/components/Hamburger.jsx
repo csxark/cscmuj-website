@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import insta from "@/assets/insta.png";
+import LinkedIn from "@/assets/linkedin.png";
 
 const Hamburger = ({ isOpen, toggleMenu }) => {
   const menuVariants = {
@@ -104,12 +105,15 @@ const Hamburger = ({ isOpen, toggleMenu }) => {
               </Link>
             </motion.div>
           ))}
-          <motion.div variants={menuItemVariants}>
+          <motion.div
+            variants={menuItemVariants}
+            className="flex flex-row gap-4 items-center"
+          >
             <a
               href="https://www.instagram.com/csc_muj/"
               target="_blank"
               rel="noreferrer"
-              className="flex justify-center mt-4 hover:scale-110 transition-transform duration-300"
+              className="flex justify-center mt-4 hover:scale-110 transition-transform duration-300 ml-auto"
               onClick={toggleMenu}
             >
               <Image
@@ -119,6 +123,41 @@ const Hamburger = ({ isOpen, toggleMenu }) => {
                 alt="Instagram"
                 className="hover:opacity-80"
               />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/cyber-space-club"
+              target="_blank"
+              rel="noreferrer"
+              className="flex justify-center mt-4 hover:scale-110 transition-transform duration-300"
+              onClick={toggleMenu}
+            >
+              <Image
+                src={LinkedIn}
+                height={38}
+                width={38}
+                alt="LinkedIn"
+                className="hover:opacity-80"
+              />
+            </a>
+            <a
+              href="https://x.com/cyberspacemuj"
+              target="_blank"
+              rel="noreferrer"
+              className="flex justify-center mt-4 hover:scale-110 transition-transform duration-300"
+              onClick={toggleMenu}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={28}
+                height={28}
+                fill="none"
+                viewBox="0 0 1200 1227"
+              >
+                <path
+                  fill="#fe8d32"
+                  d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"
+                />
+              </svg>
             </a>
           </motion.div>
         </motion.div>
