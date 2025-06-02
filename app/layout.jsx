@@ -13,6 +13,9 @@ const MontserratFont = Montserrat({
 export const metadata = {
   title: "CSC MUJ",
   description: "Cyber Space Club, Manipal University Jaipur",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
