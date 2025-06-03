@@ -108,7 +108,7 @@ const Header = () => {
             transition={{ delay: 1.1 }}
             className="flex justify-center space-x-6"
           >
-            <Link href="/previousevent">
+            <Link href="/event">
               <button className="group relative px-8 py-3 text-lg font-medium rounded-md bg-transparent border-2 border-[#fe8d32] text-white hover:bg-[#fe8d32] transition-all duration-300">
                 Explore Events
                 <ChevronRight className="inline-block ml-2 group-hover:translate-x-1 transition-transform" />
