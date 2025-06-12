@@ -83,7 +83,7 @@ import ShifaKhan from "@/assets/team/people/core/ShifaKhan.jpg";
 
 //Community Managers
 import Vedaant from "@/assets/team/people/commu_manager/VedaantAil.jpg";
-import vanshikakhurana from "@/assets/team/people/commu_manager/VanshikaKhurana.jpg";
+import vanshikakhurana from "@/assets/team/people/commu_manager/VanshikaKhurana.png";
 
 
 import anmol from "@/assets/team/people/exec/AnmolGill.jpg";
