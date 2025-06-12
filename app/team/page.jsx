@@ -81,6 +81,11 @@ import PraneetiSingh from "@/assets/team/people/core/PraneetiSingh.jpg";
 import PranavPassi from "@/assets/team/people/core/PranavPassi.jpg";
 import ShifaKhan from "@/assets/team/people/core/ShifaKhan.jpg";
 
+//Community Managers
+import Vedaant from "@/assets/team/people/commu_manager/VedaantAil.jpg";
+import vanshikakhurana from "@/assets/team/people/commu_manager/VanshikaKhurana.jpg";
+
+
 import anmol from "@/assets/team/people/exec/AnmolGill.jpg";
 import ananyasharma from "@/assets/team/people/exec/ananya.jpeg";
 import Ritika from "@/assets/team/people/exec/RitikaMalhotra.jpeg";
@@ -647,9 +652,8 @@ const TeamPage = () => {
       </div>
       <div className="pageSeparator" />
       {/* Senior Coordinator */}
-      {/* SUMIT😅😅😅 ---> ok bro, Adarsh was here */}
       <div className="grid grid-flow-row justify-center items-center my-20">
-        <h1 className="senior justify-self-center">Senior Co-ordinators</h1>
+        <h1 className="senior justify-self-center">SENIOR CO-ORDINATORS</h1>
         <div className="gap-6 grid grid-cols-3 justify-evenly w-[100vw]">
           <div>
             <Person
@@ -840,6 +844,31 @@ const TeamPage = () => {
               post="Senior Coordinator of Research"
               link1="http://www.linkedin.com/in/muskanshinghal"
               link2="https://www.instagram.com/" //no insta a good human being
+            />
+          </div>
+        </div>
+      </div>
+      <div className="pageSeparator" />
+      {/* Community Manager */}
+      <div className="grid grid-flow-row justify-center items-center my-20">
+        <h1 className="senior justify-self-center">COMMUNITY MANAGERS</h1>
+        <div className="gap-1 grid grid-cols-2 justify-evenly w-[100vw]">
+          <div>
+            <Person
+              img={Vedaant}
+              name="Vedaant Ail"
+              post=""
+              link1="https://www.linkedin.com/in/vedaant-ail-790513313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              link2="https://www.instagram.com/vedaantf737?igsh=MXNud3lzc29jMmZmcA=="
+            />
+          </div>
+          <div>
+            <Person
+              img={vanshikakhurana}
+              name="Vanshika Khurana"
+              post=""
+              link1="http://www.linkedin.com/in/vanshika-khurana-b55358337"
+              link2="https://www.instagram.com/_vanshikaa28?igsh=aGQ0OGlxN3U2dmNo"
             />
           </div>
         </div>

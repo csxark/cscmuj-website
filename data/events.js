@@ -12,7 +12,7 @@ export const events = [
     date: "November 15, 2024",
     location: "Manipal University, AB3 1st Floor",
     registrationLink: "https://tinyurl.com/3uv5fyaj",
-    tags: ["future", "intelligence", "imagination", "ai showdown"],
+    tags: ["future", "intelligence", "imagination", "machine-vs-mind"],
     organizer: "Cyber Space Club",
   },
   {
