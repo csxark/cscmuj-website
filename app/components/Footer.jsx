@@ -14,8 +14,8 @@ const Footer = () => {
             <div className="w-32 h-32  opacity-90 rounded-lg flex items-center justify-center text-white font-bold">
               <Image
                 src={Logo}
-                objectFit="contain"
-                className="filter drop-shadow-2xl"
+                alt="Cyber Space Club Logo"
+                className="filter drop-shadow-2xl object-contain"
               />
             </div>
             <h2 className="mt-4 text-xl font-bold tracking-wide">
