@@ -8,20 +8,24 @@ import h3 from "@/assets/team/dsw.svg";
 import h4 from "@/assets/team/executive.svg";
 import h5 from "@/assets/team/core.svg";
 import h6 from "@/assets/team/deputyCore.svg";
+
 //Faculties
 import UmaShankar from "@/assets/team/people/FacultyCoordinator/DrUmashankarRawat.jpg";
 import Rohit from "@/assets/team/people/FacultyCoordinator/DrRohitBhatnagar.jpg";
 import AmitKumarBairwa from "@/assets/team/people/FacultyCoordinator/AmitKumarBairwa.jpg";
 import Sanchit from "@/assets/team/people/DSW/SanchitAnand.jpg";
+
 //Execs
-import vatsa from "@/assets/team/people/execs/SrivatsaPalepu.jpeg";
-import salil from "@/assets/team/people/execs/SalilHiremath.jpg";
-import Kanishk from "@/assets/team/people/execs/Kanishk.jpg";
-import HarshitRawat from "@/assets/team/people/execs/HarshitRawat.jpg";
-import Chitransh from "@/assets/team/people/execs/ChitranshSaxena.jpeg";
-import AditiJain from "@/assets/team/people/execs/Aditijain.jpeg";
-import Chetna from "@/assets/team/people/execs/ChetnaRai.jpeg";
-import HarshKamra from "@/assets/team/people/execs/HarshKamra.jpeg";
+import kuber from "@/assets/team/people/ecs/KuberChhabra.png";
+import ganesh from "@/assets/team/people/ecs/GaneshKotwade.png";
+import arnab from "@/assets/team/people/ecs/ArnabRoy.png";
+import rishabh from "@/assets/team/people/ecs/RishabhPandey.png";
+import jatin from "@/assets/team/people/ecs/JatinSangewar.png";
+import pranav from "@/assets/team/people/ecs/PranavUpadhyay.png";
+import himank from "@/assets/team/people/ecs/HimankSingh.png";
+import aditya from "@/assets/team/people/ecs/AdityaAgrawal.png";
+import anhad from "@/assets/team/people/ecs/Anhad.png";
+
 //Heads
 import DhruvRathee from "@/assets/team/people/core/DhruvRathee.jpg";
 import Ganesh from "@/assets/team/people/core/GaneshKotwade.jpg";
@@ -46,7 +50,6 @@ import GargiPal from "@/assets/team/people/core/GargiPal.jpg";
 import HimankSingh from "@/assets/team/people/core/HimankSingh.jpg";
 import HussainRaza from "@/assets/team/people/core/HussainRaza.jpg";
 import IshikaSingh from "@/assets/team/people/core/IshikaSingh.jpg";
-import JatinKumarSangewar from "@/assets/team/people/core/JatinKumarSangewar.jpg";
 import KartikeyaChaturvedi from "@/assets/team/people/core/KartikeyaChaturvedi.jpg";
 import KashishTiwari from "@/assets/team/people/core/KashishTiwari.jpg";
 import KrishnaGoel from "@/assets/team/people/core/KrishnaGoel.jpg";
@@ -86,6 +89,14 @@ import Vedaant from "@/assets/team/people/commu_manager/VedaantAil.jpg";
 import vanshikakhurana from "@/assets/team/people/commu_manager/VanshikaKhurana.png";
 
 
+import vatsa from "@/assets/team/people/execs/SrivatsaPalepu.jpeg";
+import salil from "@/assets/team/people/execs/SalilHiremath.jpg";
+import Kanishk from "@/assets/team/people/execs/Kanishk.jpg";
+import HarshitRawat from "@/assets/team/people/execs/HarshitRawat.jpg";
+import Chitransh from "@/assets/team/people/execs/ChitranshSaxena.jpeg";
+import AditiJain from "@/assets/team/people/execs/Aditijain.jpeg";
+import Chetna from "@/assets/team/people/execs/ChetnaRai.jpeg";
+import HarshKamra from "@/assets/team/people/execs/HarshKamra.jpeg";
 import anmol from "@/assets/team/people/exec/AnmolGill.jpg";
 import ananyasharma from "@/assets/team/people/exec/ananya.jpeg";
 import Ritika from "@/assets/team/people/exec/RitikaMalhotra.jpeg";
@@ -114,7 +125,6 @@ import Kamya from "@/assets/team/people/exec/Kamya.jpg";
 import Pratyaksh from "@/assets/team/people/exec/PratyakshSinghal.jpg";
 import AryanShah from "@/assets/team/people/exec/AryanShah.jpg";
 import AnandGhugare from "@/assets/team/people/exec/AnandGhugare.jpg";
-
 import SheryaGupta from "@/assets/team/people/exec/SheryaGupta.jpg";
 import JainilShah from "@/assets/team/people/exec/JainilShah.jpeg";
 import ParthSarrathi from "@/assets/team/people/exec/ParthSarrathi.jpg";
@@ -261,8 +271,8 @@ const TeamPage = () => {
         <div className="gap-y-7 gap-x-6 grid grid-flow-row md:grid-cols-3 sm:grid-cols-2 justify-evenly w-[100vw]">
           <div className="">
             <Person
-              img={vatsa}
-              name="Srivatsa Palepu"
+              img={kuber}
+              name="Kuber Chhabra"
               post="Chairperson"
               link1="https://www.linkedin.com/in/srivatsa-palepu-5210a6265"
               link2="https://www.instagram.com/srivatsa_palepu/?next=%2F"
@@ -270,8 +280,8 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={Chitransh}
-              name="Chitransh Saxena"
+              img={ganesh}
+              name="Ganesh Kotwade"
               post="Vice-Chairperson"
               link1="https://www.linkedin.com/in/chitranshatlkdin/"
               link2="https://www.instagram.com/_.chitransh_saxena._/"
@@ -279,8 +289,8 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={HarshitRawat}
-              name="Harshit Rawat"
+              img={arnab}
+              name="Arnab Roy"
               post="General Secretary"
               link1="https://www.linkedin.com/in/harshit-rawat-it/"
               link2="https://www.instagram.com/harshitt_rawat/"
@@ -288,8 +298,8 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={AditiJain}
-              name="Aditi Jain"
+              img={rishabh}
+              name="Rishabh Pandey"
               post="Treasurer"
               link1="https://www.linkedin.com/in/aditi-jain-09ab53244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               link2="http://instagram.com/aditijain.thv"
@@ -297,17 +307,17 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={HarshKamra}
-              name="Harsh Kamra"
-              post="Creative Director"
+              img={jatin}
+              name="Jatin Sangewar"
+              post="Technical Secretary"
               link1="https://www.linkedin.com/in/harsh-kamra-a6a53b251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               link2="https://instagram.com/itsastrotine"
             />
           </div>
           <div>
             <Person
-              img={salil}
-              name="Salil Hiremath"
+              img={pranav}
+              name="Pranav Upadhyay"
               post="Managing Director"
               link1="https://www.linkedin.com/in/salil-hiremath-946784212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               link2="https://www.instagram.com/saaalil?igsh=b2s1a29jdGsyODA4"
@@ -315,13 +325,31 @@ const TeamPage = () => {
           </div>
             <div>
               <Person
-                img={Kanishk}
-                name="Kanishk Valechha"
-                post="Webmaster"
+                img={himank}
+                name="Himank Singh"
+                post="Creative Director"
                 link1="https://www.linkedin.com/in/kanishk-valechha/"
                 link2="https://www.instagram.com/kanishk_valechha/"
               />
             </div>
+          <div>
+            <Person
+              img={aditya}
+              name="Aditya Agrawal"
+              post="Human Resource Director"
+              link1="https://www.linkedin.com/in/kanishk-valechha/"
+              link2="https://www.instagram.com/kanishk_valechha/"
+            />
+          </div>
+          <div>
+            <Person
+              img={anhad}
+              name="Anhadbani Anand"
+              post="Head of Public Relations"
+              link1="https://www.linkedin.com/in/kanishk-valechha/"
+              link2="https://www.instagram.com/kanishk_valechha/"
+            />
+          </div>
         </div>
       </div>
       <div className="pageSeparator" />
@@ -501,15 +529,6 @@ const TeamPage = () => {
               post="Joint Head Content"
               link1="www.linkedin.com/" //id given link needed
               link2="https://www.instagram.com/"
-            />
-          </div>
-          <div>
-            <Person
-              img={JatinKumarSangewar}
-              name="Jatin Kumar Sangewar"
-              post="Joint Head of Media"
-              link1="https://www.linkedin.com/in/jatinkumar-s/"
-              link2="https://www.instagram.com/urbraiinded_loll/"
             />
           </div>
           <div>

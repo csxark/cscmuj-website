@@ -33,8 +33,8 @@ export default function Home() {
         <AboutUs />
         <div className="pageSeparator"></div>
         <CyberSec />
-        /* <div className="pageSeparator"></div>
-        <InstaPosts /> */
+        <div className="pageSeparator"></div>
+        <InstaPosts />
         {/* <div className="pageSeparator"></div>
         <div className="landingNewsletter grid grid-flow-col grid-cols-3">
           {newsletters.map((newsletter) => (
