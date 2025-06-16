@@ -50,11 +50,12 @@ import SuyashPandey from "@/assets/team/people/joint/SuyashPandey.png";
 import AstitvaSrivastava from "@/assets/team/people/joint/AstitvaSrivastava.png";
 import MihirSinha from "@/assets/team/people/joint/MihirSinha.png";
 import AnantThapa from "@/assets/team/people/joint/AnantThapa.png";
+import ChaitanyaYadav from "@/assets/team/people/joint/ChaitanyaYadav.jpeg";
 import SimranMalhotra from "@/assets/team/people/joint/SimranMalhotra.png";
 import BhumijaGoswami from "@/assets/team/people/joint/BhumijaGoswami.png";
 import VrindaGoel from "@/assets/team/people/joint/VrindaGoel.png";
 import PranavBharara from "@/assets/team/people/joint/PranavBharara.png";
-import SarthakGupta from "@/assets/team/people/joint/SarthakGupta.png";
+import SarthakGupta from "@/assets/team/people/joint/SarthakGupta.jpg";
 import RugvedGujar from "@/assets/team/people/joint/RugvedGujar.png";
 import HarshitRajSingh from "@/assets/team/people/joint/HarshitRajSingh.png";
 import StutiAgrawal from "@/assets/team/people/joint/StutiAgrawal.png";
@@ -62,6 +63,7 @@ import MitakshiSinha from "@/assets/team/people/joint/MitakshiSinha.png";
 import AarushiSharma from "@/assets/team/people/joint/AarushiSharma.png";
 
 //SeniorCoordinators
+import KhyatiSingh from "@/assets/team/people/scs/KhyatiSingh.jpeg";
 import PraneelKapoor from "@/assets/team/people/scs/PraneelKapoor.png";
 import SanyamJain from "@/assets/team/people/scs/SanyamJain.png";
 import ManasijDas from "@/assets/team/people/scs/ManasijDas.png";
@@ -144,7 +146,7 @@ const TeamPage = () => {
         <Image
           height={300}
           width={150}
-          src={h4}
+          src={h21}
           className="sm:col-span-3 my-6 justify-self-center md:hidden sm:block"
         />
         {/* <h1 className="md:hidden sm:block fc place-content-center">
@@ -380,7 +382,7 @@ const TeamPage = () => {
             <Person
               img={RandeepSinghChauhan}
               name="Randeep Singh Chauhan"
-              post="Head of Productions and Operations"
+              post="Head of ProdOps"
               link1="https://www.linkedin.com/in/randeep-singh-chauhan-3568a126b" 
               link2="https://www.instagram.com/rx_chauhan_2005?igsh=d2djcWN4YW5vZXp1"
             />
@@ -389,7 +391,7 @@ const TeamPage = () => {
             <Person
               img={KashikaBhardwaj}
               name="Kashika Bhardwaj"
-              post="Research Head"
+              post="Head of Research"
               link1="https://www.linkedin.com/in/kashika-bhardwaj?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               link2="https://www.instagram.com/kashika.bhardwaj__?igsh=MW5vdGhpeGl6MXFvNA=="
             />
@@ -504,6 +506,15 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
+              img={ChaitanyaYadav}
+              name="Chaitanya Yadav"
+              post="Joint Head of Graphic Design"
+              link1="https://www.linkedin.com/in/chaitanya-yadav-0487b1253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              link2="https://www.instagram.com/chaitanya.yad?igsh=MTEwczd5cnQ4NG9kcg=="
+            />
+          </div>
+          <div>
+            <Person
               img={SimranMalhotra}
               name="Simran Malhotra"
               post="Joint Head of Graphic Design"
@@ -542,7 +553,7 @@ const TeamPage = () => {
             <Person
               img={SarthakGupta}
               name="Sarthak Gupta"
-              post="Joint Head of Productions and Operations"
+              post="Joint Head of ProdOps"
               link1="https://www.linkedin.com/in/sarthak-gupta-8aa2a2292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               link2="https://www.instagram.com/s4rthak.g?igsh=NGZxczlibjVremtj"
             />
@@ -551,7 +562,7 @@ const TeamPage = () => {
             <Person
               img={RugvedGujar}
               name="Rugved Gujar"
-              post="Joint Head of Productions and Operations"
+              post="Joint Head of ProdOps"
               link1="https://www.linkedin.com/in/rugved-gujar-a36061310/"
               link2="https://www.instagram.com/rugved_2101?igsh=MWlpa20zbXozajA1MA=="
             />
@@ -598,8 +609,17 @@ const TeamPage = () => {
       <div className="pageSeparator" />
       {/* Senior Coordinator */}
       <div className="grid grid-flow-row justify-center items-center my-20">
-        <h1 className="senior justify-self-center">SENIOR CO-ORDINATORS</h1>
-        <div className="gap-6 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-2 justify-evenly w-[100vw]">
+        <h1 className="senior text-center">SENIOR CO-ORDINATORS</h1>
+        <div className="gap-6 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-2 text-center w-[100vw]">
+          <div>
+            <Person
+              img={KhyatiSingh}
+              name="Khyati Singh"
+              post="Senior Coordinator Curations"
+              link1="https://www.linkedin.com/in/khyati-singh-333257369?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              link2="https://www.instagram.com/khyatii_singh_?igsh=OW4yY2RqbTEybG8="
+            />
+          </div>
           <div>
             <Person
               img={PraneelKapoor}
@@ -748,7 +768,7 @@ const TeamPage = () => {
             <Person
               img={SarthakSharma}
               name="Sarthak Sharma"
-              post="Senior Coordinator of Productions and Operations"
+              post="Senior Coordinator of ProdOps"
               link1="https://www.linkedin.com/in/sarthak-sharma-677a15281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               link2="https://www.instagram.com/sarthak_vibesx?utm_source=qr&igsh=YjV5aTNoaGhpaWF1"
             />
@@ -757,7 +777,7 @@ const TeamPage = () => {
             <Person
               img={ArpitSrivastava}
               name="Arpit Srivastava"
-              post="Senior Coordinator of Productions and Operations"
+              post="Senior Coordinator of ProdOps"
               link1="https://www.linkedin.com/in/arpit-srivastava-53a1a133b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               link2="https://www.instagram.com/arpit.forever?igsh=cXA4dm1ubHJhdmZj&utm_source=qr"
             />
@@ -785,8 +805,8 @@ const TeamPage = () => {
       <div className="pageSeparator" />
       {/* Community Manager */}
       <div className="grid grid-flow-row justify-center items-center my-20">
-        <h1 className="senior justify-self-center">COMMUNITY MANAGERS</h1>
-        <div className="gap-1 grid grid-cols-2 justify-evenly w-[100vw]">
+        <h1 className="senior text-center">COMMUNITY MANAGERS</h1>
+        <div className="gap-6 grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 justify-evenly w-[100vw]">
           <div>
             <Person
               img={Vedaant}
