@@ -112,8 +112,8 @@
 }
 
 .senior {
-  font-size: 60px;
-  -webkit-text-stroke-width: 4.5px;
+  font-size: 50px;
+  -webkit-text-stroke-width: 3.5px;
   -webkit-text-stroke-color: #e5d6b7;
   -webkit-text-fill-color: #000000;
   letter-spacing: 1px;
