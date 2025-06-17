@@ -56,17 +56,17 @@ const InstaPosts = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/p/CyyYl1YhdtF/">
+          <a href="">
             <Image src={Dstpost1} alt="4th post A" />
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/p/CyyYl1YhdtF/">
+          <a href="">
             <Image src={Dstpost2} alt="4th post B" />
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/p/CyyYl1YhdtF/">
+          <a href="">
             <Image src={Dstpost3} alt="4th post C" />
           </a>
         </SwiperSlide>
