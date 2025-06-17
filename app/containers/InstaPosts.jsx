@@ -21,7 +21,7 @@ import Dstpost3 from '../containers/Instaposts/4th_post/4c.jpg';
 
 const InstaPosts = () => {
   return (
-    <section className="relative bg-black py-10 pb-4 overflow-hidden">
+    <section className="relative bg-black py-4 pb-4 overflow-hidden">
       <Swiper
         slidesPerView={3}
         slidesPerGroup={3}
