@@ -145,7 +145,7 @@ const TeamPage = () => {
         />{" "}
         <Image
           height={300}
-          width={150}
+          width={400}
           src={h21}
           className="sm:col-span-3 my-6 justify-self-center md:hidden sm:block"
         />
@@ -217,7 +217,7 @@ const TeamPage = () => {
         />{" "}
         <Image
           height={300}
-          width={400}
+          width={370}
           src={h4}
           className="justify-self-center pb-6
           md:hidden
