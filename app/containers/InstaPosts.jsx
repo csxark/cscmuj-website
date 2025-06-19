@@ -18,6 +18,9 @@ import Cstpost3 from '../containers/Instaposts/3rd_post/3c.jpg';
 import Dstpost1 from '../containers/Instaposts/4th_post/4a.jpg';
 import Dstpost2 from '../containers/Instaposts/4th_post/4b.jpg';
 import Dstpost3 from '../containers/Instaposts/4th_post/4c.jpg';
+import Ethpost1 from '../containers/Instaposts/5th_post/5a.jpg';
+import Ethpost2 from '../containers/Instaposts/5th_post/5b.jpg';
+import Ethpost3 from '../containers/Instaposts/5th_post/5c.jpg';
 
 const InstaPosts = () => {
   return (
@@ -33,7 +36,7 @@ const InstaPosts = () => {
         keyboard={true}
         loop={true}
         autoplay={{
-          delay: 5000,
+          delay: 10000,
           disableOnInteraction: false,
         }}
         speed={1500}
@@ -68,6 +71,21 @@ const InstaPosts = () => {
         <SwiperSlide className="text-green-300">
           <a href="">
             <Image src={Dstpost3} alt="4th post C" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="text-green-300">
+          <a href="">
+            <Image src={Ethpost1} alt="5th post A" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="text-green-300">
+          <a href="">
+            <Image src={Ethpost2} alt="5th post B" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="text-green-300">
+          <a href="">
+            <Image src={Ethpost3} alt="5th post C" />
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
