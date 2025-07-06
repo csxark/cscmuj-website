@@ -6,22 +6,35 @@ import bountyImage from "../assets/events/bounty.jpg";
 import aliceImage from "../assets/events/alice.jpg";
 import captureflagImage from "../assets/events/captureflag.jpg";
 import builddeploy2Image from "../assets/events/builddep2.png"
+import hacknearnImage from "../assets/events/hackearn2.png";
 
 export const events = [
   {
     id: 1,
+    name: "Hack n' Earn 2.0",
+    image: hacknearnImage,
+    description:
+      "Open to coders of all experience levels, this event offers a chance to take on fun and intellectually stimulating coding challenges, connect with a like-minded developer community, and sharpen your problem-solving skills. Whether you're looking to learn, collaborate, or simply enjoy the thrill of coding; the perfect place to start of something impactful and energizing.",
+    date: "July 14, 2025",
+    location: "Hacker Earth",
+    registrationLink: "https://forms.gle/vk7VD91A5xf9jSYp7",
+    tags: ["skillshot", "precision", "Bitwise", "stacktrace"],
+    organizer: "Cyber Space Club",
+  },
+  {
+    id: 2,
     name: "Build & Deploy 2.0",
     image: builddeploy2Image,
     description:
       "A web-dev bootcamp perfect for beginners who want to actually build something cool! If you’ve been meaning to level up your portfolio, start real projects, or just explore how websites are made, this is for you! Explore the evolution of AI and how it’s transforming the way websites are built from design to deployment. With hands-on sessions, experienced mentors, and real-time project building, you'll get to create something truly your own.",
     date: "June 21, 2025",
-    location: "Online",
+    location: "Microsoft Teams",
     registrationLink: "https://forms.gle/1DWt2ES3UYns3z6b9",
     tags: ["mentorship", "hands on", "beginner-friendly"],
     organizer: "Cyber Space Club",
   },
   {
-    id: 2,
+    id: 3,
     name: "Capture the Flag",
     image: captureflagImage,
     description:
@@ -33,7 +46,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 3,
+    id: 4,
     name: "Alice in Borderland",
     image: aliceImage,
     description:
@@ -45,7 +58,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 4,
+    id: 5,
     name: "Bounty Bonanza 2.0",
     image: bountyImage,
     description:
@@ -57,7 +70,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 5,
+    id: 6,
     name: "Build Fest",
     image: buildfestImage,
     description:
@@ -69,7 +82,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 6,
+    id: 7,
     name: "Battle Blitz 2.0",
     image: battleImage,
     description:
@@ -81,7 +94,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 7,
+    id: 8,
     name: "Error Odyssey 2.0",
     image: errorImage,
     description:
@@ -93,7 +106,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 8,
+    id: 9,
     name: "AI vs Human Debate",
     image: aihumanImage,
     description:

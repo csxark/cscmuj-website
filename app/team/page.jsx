@@ -524,15 +524,6 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={BhumijaGoswami}
-              name="Bhumija Goswami"
-              post="Joint Head of Graphic Design"
-              link1="https://www.linkedin.com/in/bhumija-goswami/"
-              link2="https://www.instagram.com/___bhumija.goswami/"
-            />
-          </div>
-          <div>
-            <Person
               img={VrindaGoel}
               name="Vrinda Goel"
               post="Joint Head of Media"
