@@ -42,7 +42,7 @@ export const events = [
     date: "April 14, 2025",
     location: "Manipal University, AB2 1st Floor",
     registrationLink: "https://tinyurl.com/Novus-CTF",
-    tags: ["cyber security", "logical warfare", "informative"],
+    tags: ["cyber security", "logic warfare", "informative"],
     organizer: "Cyber Space Club",
   },
   {
