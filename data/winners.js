@@ -20,7 +20,7 @@ export const eventWinners = {
         { name: "Team Ace", position: 3 },
     ],
     "Bounty Bonanza 2.0": [
-        { name: "Winner 1", position: 1 },
+        { position: 1 },
         { position: 2 },
         { position: 3 },
     ],
