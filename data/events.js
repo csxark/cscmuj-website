@@ -18,7 +18,7 @@ export const events = [
     date: "July 14, 2025",
     location: "Hacker Earth",
     registrationLink: "https://forms.gle/vk7VD91A5xf9jSYp7",
-    tags: ["skillshot", "precision", "Bitwise", "stacktrace"],
+    tags: ["skillshot", "precision", "bitwise", "stacktrace"],
     organizer: "Cyber Space Club",
   },
   {
@@ -88,7 +88,7 @@ export const events = [
     description:
       "Get ready for an action-packed day of interactive challenges and social games! Join us for exciting activities, team competitions, and memorable experiences with fellow tech enthusiasts.",
     date: "February 21, 2025",
-    location: "Manipal University, AB1 3rd Floor",
+    location: "Manipal University, AB3, 1st Floor",
     registrationLink: "https://forms.gle/KLW59s17Wm68uuuZ7",
     tags: ["social games", "activities", "challenges", "fun"],
     organizer: "Cyber Space Club",
@@ -100,7 +100,7 @@ export const events = [
     description:
       "Join this C programming competition to test your debugging skills! Through three exciting rounds, showcase your ability to find and fix code errors. Perfect for both beginners and experienced programmers.",
     date: "February 18, 2025",
-    location: "Manipal University, AB1 307",
+    location: "Manipal University, AB1, 3rd Floor",
     registrationLink: "https://forms.gle/DgX3gtmogmJwwtFY8",
     tags: ["competition", "coding", "debugging", "C"],
     organizer: "Cyber Space Club",
@@ -112,7 +112,7 @@ export const events = [
     description:
       "Step into a high-energy debate on whether Artificial Intelligence or Human Intelligence will shape our future in healthcare, education, cybersecurity, and more! Team up and take a stand to prove which side has the edge. 💥👥",
     date: "November 15, 2024",
-    location: "Manipal University, AB3 1st Floor",
+    location: "Manipal University, AB3, 1st Floor",
     registrationLink: "https://tinyurl.com/3uv5fyaj",
     tags: ["future", "intelligence", "imagination", "machine-vs-mind"],
     organizer: "Cyber Space Club",
