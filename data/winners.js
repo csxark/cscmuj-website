@@ -1,8 +1,8 @@
 export const eventWinners = {
     "Hack n' Earn 2.0": [
-        { name: "To Be Announced", position: 1 },
-        { name: "To Be Announced", position: 2 },
-        { name: "To Be Announced", position: 3 },
+        { name: "Purvanshi Khandelwal", position: 1 },
+        { name: "Shlok Mathurkar", position: 2 },
+        { name: "Suhina Ray", position: 3 },
     ],
     "Build & Deploy 2.0": [
         { name: "Anant Thapa", position: 1 },
