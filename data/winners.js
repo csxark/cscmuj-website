@@ -10,9 +10,9 @@ export const eventWinners = {
         { name: "Harshit Raj Singh", position: 3 },
     ],
     "Capture the Flag": [
-        { position: 1 },
-        { position: 2 },
-        { position: 3 },
+        { name: "Team Mavericks", position: 1 },
+        { name: "⁠Team pwncat", position: 2 },
+        { name: "Team What the Pish", position: 3 },
     ],
     "Alice in Borderland": [
         { name: "Team Nanigas", position: 1 },
@@ -20,9 +20,9 @@ export const eventWinners = {
         { name: "Team Ace", position: 3 },
     ],
     "Bounty Bonanza 2.0": [
-        { position: 1 },
-        { position: 2 },
-        { position: 3 },
+        { name: "Team Celestial", position: 1 },
+        { name: "Team Eggo Bandits", position: 2 },
+        { name: "Team Pookie Badmash", position: 3 },
     ],
     "Build Fest": [
         { name: "Team Edge Kings", position: 1 },

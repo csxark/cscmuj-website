@@ -43,6 +43,7 @@ const Hamburger = ({ isOpen, toggleMenu }) => {
     { href: "/", label: "Home" },
     { href: "/event", label: "Events" },
     { href: "/newsletter", label: "Newsletter" },
+    { href: "/leaderboard", label: "Leaderboard" },
     { href: "/team", label: "Team" },
   ];
 
@@ -107,7 +108,7 @@ const Hamburger = ({ isOpen, toggleMenu }) => {
           ))}
           <motion.div
             variants={menuItemVariants}
-            className="flex flex-row gap-4 items-center"
+            className="flex flex-row gap-4 items-center mr-5"
           >
             <a
               href="https://www.instagram.com/csc_muj/"
