@@ -137,7 +137,7 @@ const CertificateManager = () => {
               
               <div className="mb-4">
                 <label className="block text-gray-300 text-sm font-medium mb-2">
-                  Google Drive Link (only needed for "Available" status)
+                  Google Drive Link (only needed for &quot;Available&quot; status)
                 </label>
                 <input
                   type="url"
