@@ -51,6 +51,7 @@ const Header = () => {
               src={LogoGif}
               fill
               priority
+              alt="CSC MUJ Logo"
               className="filter drop-shadow-2xl object-contain"
             />
           </motion.div>

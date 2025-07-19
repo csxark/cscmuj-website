@@ -27,7 +27,7 @@ const CertificateManager = () => {
     if (selectedEvent && certificateLink.trim() && certificateStatus) {
       // In a real application, you would save this to a database
       // For now, we'll just show an alert with the information
-      alert(`Certificate status for "${selectedEvent.name}" has been updated to:\nStatus: ${certificateStatus}\nLink: ${certificateLink}\n\nNote: In a real application, this would be saved to a database.`);
+      alert(`Certificate status for &quot;${selectedEvent.name}&quot; has been updated to:\nStatus: ${certificateStatus}\nLink: ${certificateLink}\n\nNote: In a real application, this would be saved to a database.`);
       setShowForm(false);
       setSelectedEvent(null);
       setCertificateLink("");
@@ -91,7 +91,7 @@ const CertificateManager = () => {
           className="text-center mb-12"
         >
           <div className="flex items-center justify-center mb-4">
-            <img src={logo.src} alt="Logo" className="w-16 h-16 rounded-full mr-4" />
+            <Image src={logo} alt="Logo" width={64} height={64} className="rounded-full mr-4" />
             <h1 className="text-4xl font-bold bg-linear-to-r from-[#fe8d32] to-[#f8be19] text-transparent bg-clip-text">
               Certificate Management
             </h1>

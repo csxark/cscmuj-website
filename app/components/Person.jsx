@@ -12,6 +12,7 @@ const Person = ({ img, name, post, link1, link2 }) => {
         src={img}
         height={200}
         width={200}
+        alt={`${name} - ${post}`}
         className="justify-self-center rounded-[100%]
           md:hidden
           sm:hidden
@@ -22,6 +23,7 @@ const Person = ({ img, name, post, link1, link2 }) => {
         src={img}
         height={180}
         width={180}
+        alt={`${name} - ${post}`}
         className="justify-self-center rounded-[100%]
           md:block
           sm:hidden
@@ -32,6 +34,7 @@ const Person = ({ img, name, post, link1, link2 }) => {
         src={img}
         height={150}
         width={150}
+        alt={`${name} - ${post}`}
         className="justify-self-center rounded-[100%]
           md:hidden
           sm:block
@@ -42,6 +45,7 @@ const Person = ({ img, name, post, link1, link2 }) => {
         src={img}
         height={210}
         width={210}
+        alt={`${name} - ${post}`}
         className="justify-self-center rounded-[100%]
           md:hidden
           sm:hidden
@@ -69,12 +73,12 @@ const Person = ({ img, name, post, link1, link2 }) => {
       <div className="team-handle">
         <div className="insta">
           <a href={link2}>
-            <Image src={insta} height={24} width={24} />
+            <Image src={insta} height={24} width={24} alt="Instagram" />
           </a>
         </div>
         <div className="linkedin">
           <a href={link1}>
-            <Image src={linkedin} height={28} width={28} />
+            <Image src={linkedin} height={28} width={28} alt="LinkedIn" />
           </a>
         </div>
       </div>

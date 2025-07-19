@@ -81,7 +81,7 @@ const CertificatesPage = () => {
           className="text-center mb-12"
         >
           <div className="flex items-center justify-center mb-4">
-            <img src={logo.src} alt="Logo" className="w-16 h-16 rounded-full mr-4" />
+            <Image src={logo} alt="Logo" width={64} height={64} className="rounded-full mr-4" />
             <h1 className="text-4xl font-bold bg-linear-to-r from-[#fe8d32] to-[#f8be19] text-transparent bg-clip-text">
               Event Certificates
             </h1>
@@ -173,7 +173,7 @@ const CertificatesPage = () => {
             className="text-center py-16"
           >
             <p className="text-gray-400 text-xl mb-4">
-              No events found matching "{searchTerm}"
+              No events found matching &quot;{searchTerm}&quot;
             </p>
             <button
               onClick={() => setSearchTerm("")}
@@ -221,7 +221,7 @@ const CertificatesPage = () => {
                </div>
                <div className="flex items-start gap-2">
                  <span className="bg-[#fe8d32] text-black rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">2</span>
-                 <p className="-mt-1">Click the "Download" button to open the folder containing your certificates</p>
+                 <p className="-mt-1">Click the &quot;Download&quot; button to open the folder containing your certificates</p>
                </div>
                <div className="flex items-start gap-2">
                  <span className="bg-[#fe8d32] text-black rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">3</span>
