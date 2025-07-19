@@ -42,6 +42,7 @@ const Hamburger = ({ isOpen, toggleMenu }) => {
   const menuItems = [
     { href: "/", label: "Home" },
     { href: "/event", label: "Events" },
+    { href: "/certificates", label: "Certificates" },
     { href: "/newsletter", label: "Newsletter" },
     { href: "/leaderboard", label: "Leaderboard" },
     { href: "/team", label: "Team" },

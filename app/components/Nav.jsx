@@ -38,6 +38,15 @@ const Navbar = () => {
         </li>
         <li
           className="px-[12px] hover:text-[#fe8d32] rounded-xs"
+          key={`certificates`}
+        >
+          <Link href="/certificates">
+            Certificates
+            <div />
+          </Link>
+        </li>
+        <li
+          className="px-[12px] hover:text-[#fe8d32] rounded-xs"
           key={`newsletter`}
         >
           <Link href="/newsletter">
@@ -56,7 +65,7 @@ const Navbar = () => {
         </li>
         <li
           className="px-[12px] mr-3 hover:text-[#fe8d32] rounded-xs"
-          key={`events`}
+          key={`team`}
         >
           <a href="/team">
             Team

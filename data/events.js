@@ -18,6 +18,8 @@ export const events = [
     date: "July 14, 2025",
     location: "Hacker Earth",
     registrationLink: "https://forms.gle/vk7VD91A5xf9jSYp7",
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                             // Google Drive link (only needed when status is "available")
     tags: ["skillshot", "precision", "bitwise", "stacktrace"],
     organizer: "Cyber Space Club",
   },
@@ -30,6 +32,8 @@ export const events = [
     date: "June 21, 2025",
     location: "Microsoft Teams",
     registrationLink: "https://forms.gle/1DWt2ES3UYns3z6b9",
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                             // Google Drive link (only needed when status is "available")
     tags: ["mentorship", "hands on", "beginner-friendly"],
     organizer: "Cyber Space Club",
   },
@@ -42,6 +46,8 @@ export const events = [
     date: "April 14, 2025",
     location: "Manipal University, AB2 1st Floor",
     registrationLink: "https://tinyurl.com/Novus-CTF",
+    certificateStatus: "",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                               // Google Drive link (only needed when status is "available")
     tags: ["cyber security", "logic warfare", "informative"],
     organizer: "Cyber Space Club",
   },
@@ -54,6 +60,8 @@ export const events = [
     date: "April 13, 2025",
     location: "Manipal University, AB1 Café",
     registrationLink: "https://tinyurl.com/Novus-AliceinBorderLands",
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                               // Google Drive link (only needed when status is "available")
     tags: ["high stakes", "survival games", "adreneline fueled"],
     organizer: "Cyber Space Club",
   },
@@ -66,6 +74,8 @@ export const events = [
     date: "April 12, 2025",
     location: "Manipal University, Old Mess",
     registrationLink: "https://tinyurl.com/Novus-BountyBonanza",
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                               // Google Drive link (only needed when status is "available")
     tags: ["mystery driven", "fast paced", "brain teasing", "thrilling"],
     organizer: "Cyber Space Club",
   },
@@ -78,6 +88,8 @@ export const events = [
     date: "April 11, 2025",
     location: "Manipal University, Sharda Pai Auditorium",
     registrationLink: "https://tinyurl.com/Novus-BuildFest",
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                               // Google Drive link (only needed when status is "available")
     tags: ["creative", "technological", "real world impact"],
     organizer: "Cyber Space Club",
   },
@@ -90,6 +102,8 @@ export const events = [
     date: "February 21, 2025",
     location: "Manipal University, AB3, 1st Floor",
     registrationLink: "https://forms.gle/KLW59s17Wm68uuuZ7",
+    certificateStatus: "",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                               // Google Drive link (only needed when status is "available")
     tags: ["social games", "activities", "challenges", "fun"],
     organizer: "Cyber Space Club",
   },
@@ -102,6 +116,8 @@ export const events = [
     date: "February 18, 2025",
     location: "Manipal University, AB1, 3rd Floor",
     registrationLink: "https://forms.gle/DgX3gtmogmJwwtFY8",
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                               // Google Drive link (only needed when status is "available")
     tags: ["competition", "coding", "debugging", "C"],
     organizer: "Cyber Space Club",
   },
@@ -114,6 +130,8 @@ export const events = [
     date: "November 15, 2024",
     location: "Manipal University, AB3, 1st Floor",
     registrationLink: "https://tinyurl.com/3uv5fyaj",
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",                                                                                               // Google Drive link (only needed when status is "available")
     tags: ["future", "intelligence", "imagination", "machine-vs-mind"],
     organizer: "Cyber Space Club",
   },
