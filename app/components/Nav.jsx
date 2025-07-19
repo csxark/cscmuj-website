@@ -38,6 +38,15 @@ const Navbar = () => {
         </li>
         <li
           className="px-[12px] hover:text-[#fe8d32] rounded-xs"
+          key={`certificates`}
+        >
+          <Link href="/certificates">
+            Certificates
+            <div />
+          </Link>
+        </li>
+        <li
+          className="px-[12px] hover:text-[#fe8d32] rounded-xs"
           key={`newsletter`}
         >
           <Link href="/newsletter">
@@ -56,7 +65,7 @@ const Navbar = () => {
         </li>
         <li
           className="px-[12px] mr-3 hover:text-[#fe8d32] rounded-xs"
-          key={`events`}
+          key={`team`}
         >
           <a href="/team">
             Team
@@ -69,7 +78,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Image src={insta} height={24} width={24} />
+            <Image src={insta} height={24} width={24} alt="Instagram" />
           </a>
         </div>
         <div key={`LinkedIn`} className="pl-4">
@@ -78,7 +87,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Image src={LinkedIn} height={30} width={30} />
+            <Image src={LinkedIn} height={30} width={30} alt="LinkedIn" />
           </a>
         </div>
         <div key={`X`} className="pl-4">

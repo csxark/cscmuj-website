@@ -27,17 +27,19 @@ const EventModal = ({ event, onClose }) => {
         initial={{ scale: 0.9, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         exit={{ scale: 0.9, opacity: 0 }}
-        className="bg-[#1a1a1a] rounded-xl w-full max-w-[98%] sm:max-w-6xl overflow-hidden my-2 sm:my-4 flex flex-col sm:flex-row sm:gap-8 gap-4 px-0 sm:px-12 py-0 sm:py-2 shadow-2xl relative max-h-screen overflow-y-auto"
+        className={`bg-[#1a1a1a] rounded-xl w-full ${isPastEvent && winners ? 'sm:max-w-6xl' : 'sm:max-w-4xl'} overflow-hidden my-2 sm:my-4 flex flex-col sm:flex-row sm:gap-8 gap-4 px-0 sm:px-12 py-0 sm:py-2 shadow-2xl relative max-h-screen overflow-y-auto`}
         onClick={(e) => e.stopPropagation()}
       >
         {/* Logo in top right */}
         <div className="hidden sm:block absolute top-4 right-4 z-30">
           <Image src={logo} alt="Logo" width={60} height={60} className="rounded-full shadow-lg" />
         </div>
-        {/* Vertical Divider (only on large screens) */}
-        <div className="hidden sm:block absolute left-[54%] top-8 bottom-8 w-[2.5px] bg-[#fe8d32] opacity-60 rounded-full z-20" />
+        {/* Vertical Divider (only on large screens and only for past events with winners) */}
+        {isPastEvent && winners && (
+          <div className="hidden sm:block absolute left-[54%] top-8 bottom-8 w-[2.5px] bg-[#fe8d32] opacity-60 rounded-full z-20" />
+        )}
         {/* Left: Event Info */}
-        <div className="sm:w-1/2 w-full min-w-[320px] flex-shrink-0 px-4 sm:px-0 flex flex-col justify-center">
+        <div className={`${isPastEvent && winners ? 'sm:w-1/2' : 'w-full'} w-full min-w-[320px] flex-shrink-0 px-4 sm:px-0 flex flex-col justify-center`}>
           <div className="relative h-[350px] xs:h-[400px] sm:h-[450px]">
             <Image
               src={event.image}
@@ -75,6 +77,9 @@ const EventModal = ({ event, onClose }) => {
                   Registration Closed
                 </span>
               )}
+              
+
+              
               <button
                 onClick={onClose}
                 className="px-6 py-2 border border-gray-600 rounded-lg text-gray-300 hover:bg-gray-800 transition-colors"

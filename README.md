@@ -6,11 +6,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev -- -p 4000
+npm run dev 
 # or
-yarn dev -p 4000
+yarn dev 
 # or
-pnpm dev -p 4000
+pnpm dev 
 ```
 
 Open [http://localhost:4000](http://localhost:4000) with your browser to see the result.

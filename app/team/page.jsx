@@ -116,6 +116,7 @@ const TeamPage = () => {
           height={500}
           width={500}
           src={h1}
+          alt="Faculty Coordinators Header"
           className="
           hidden
         md:block
@@ -126,6 +127,7 @@ const TeamPage = () => {
           height={400}
           width={400}
           src={h1}
+          alt="Faculty Coordinators Header"
           className="
           md:hidden
           block
@@ -141,12 +143,14 @@ const TeamPage = () => {
           height={300}
           width={150}
           src={h2}
+          alt="Faculty Coordinators Side"
           className="col-span-1 md:block hidden"
         />{" "}
         <Image
           height={300}
           width={400}
           src={h21}
+          alt="Faculty Coordinators Mobile"
           className="sm:col-span-3 my-6 justify-self-center md:hidden sm:block"
         />
         {/* <h1 className="md:hidden sm:block fc place-content-center">
@@ -192,7 +196,7 @@ const TeamPage = () => {
             link2="https://jaipur.manipal.edu/muj/academics/institution-list/foe/schools-faculty/faculty-list/Sanchit-Anand.html"
           />
         </div>
-        <Image height={200} width={100} src={h3} className="col-span-1" />
+        <Image height={200} width={100} src={h3} alt="DSW Side" className="col-span-1" />
       </div>
       <div className="pageSeparator" />
       {/* Exec */}
@@ -201,6 +205,7 @@ const TeamPage = () => {
           height={300}
           width={600}
           src={h4}
+          alt="Executive Team Header"
           className="justify-self-center pb-6
           md:hidden
           hidden
@@ -210,6 +215,7 @@ const TeamPage = () => {
           height={300}
           width={500}
           src={h4}
+          alt="Executive Team Header"
           className="justify-self-center pb-6
         md:block
         hidden
@@ -219,6 +225,7 @@ const TeamPage = () => {
           height={300}
           width={370}
           src={h4}
+          alt="Executive Team Header"
           className="justify-self-center pb-6
           md:hidden
           block
