@@ -19,7 +19,7 @@ export const events = [
     location: "Hacker Earth",
     registrationLink: "https://forms.gle/vk7VD91A5xf9jSYp7",
     certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
-    certificateLink: "https://drive.google.com/drive/folders/1_bfrdrTvUyLIiEu5jy1RHRtYjxGO28Nd?usp=sharing",                                                                                             // Google Drive link (only needed when status is "available")
+    certificateLink: "https://drive.google.com/drive/folders/1_bfrdrTvUyLIiEu5jy1RHRtYjxGO28Nd?usp=sharing",          // Google Drive link (only needed when status is "available")
     tags: ["skillshot", "precision", "bitwise", "stacktrace"],
     organizer: "Cyber Space Club",
   },
