@@ -21,6 +21,9 @@ import Dstpost3 from '../containers/Instaposts/4th_post/4c.jpg';
 import Ethpost1 from '../containers/Instaposts/5th_post/5a.jpg';
 import Ethpost2 from '../containers/Instaposts/5th_post/5b.jpg';
 import Ethpost3 from '../containers/Instaposts/5th_post/5c.jpg';
+import Fthpost1 from '../containers/Instaposts/6th_post/6a.jpg';
+import Fthpost2 from '../containers/Instaposts/6th_post/6b.jpg';
+import Fthpost3 from '../containers/Instaposts/6th_post/6c.jpg';
 
 const InstaPosts = () => {
   return (
@@ -44,7 +47,7 @@ const InstaPosts = () => {
         className="mySwiper text-white"
       >
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/novusmuj/">
+          <a href="">
             <Image src={Astpost1} alt="1st post A" />
           </a>
         </SwiperSlide>
@@ -54,7 +57,7 @@ const InstaPosts = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/novusmuj/">
+          <a href="">
             <Image src={Astpost3} alt="1st post C" />
           </a>
         </SwiperSlide>
@@ -89,17 +92,32 @@ const InstaPosts = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/p/C0MzlYJBuY1/">
+          <a href="">
+            <Image src={Fthpost1} alt="6th post A" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="text-green-300">
+          <a href="">
+            <Image src={Fthpost2} alt="6th post B" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="text-green-300">
+          <a href="">
+            <Image src={Fthpost3} alt="6th post C" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="text-green-300">
+          <a href="">
             <Image src={Bstpost1} alt="2nd post A" />
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/p/C0I5KHTuSzg/">
+          <a href="">
             <Image src={Bstpost2} alt="2nd post B" />
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/p/C0C3TREhqkE/">
+          <a href="">
             <Image src={Bstpost3} alt="2nd post C" />
           </a>
         </SwiperSlide>
@@ -109,12 +127,12 @@ const InstaPosts = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/p/Cy05x2FhaxJ/">
+          <a href="">
             <Image src={Cstpost2} alt="3rd post B" />
           </a>
         </SwiperSlide>
         <SwiperSlide className="text-green-300">
-          <a href="https://www.instagram.com/p/CyyYl1YhdtF/">
+          <a href="">
             <Image src={Cstpost3} alt="3rd post C" />
           </a>
         </SwiperSlide>
