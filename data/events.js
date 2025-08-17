@@ -7,10 +7,40 @@ import aliceImage from "../assets/events/alice.jpg";
 import captureflagImage from "../assets/events/captureflag.jpg";
 import builddeploy2Image from "../assets/events/builddep2.png"
 import hacknearnImage from "../assets/events/hackearn2.png";
+import playtopiaImage from "../assets/events/playtopia.png";
+import modularImage from "../assets/events/Mnexus.png";
 
 export const events = [
   {
     id: 1,
+    name: "PlayTopia",
+    image: playtopiaImage,
+    description:
+      "A high-energy, multi-round showdown where teamwork, strategy, and fun collide. From bluffing mind games to blind mazes, each round brings a new twist to challenge skill, trust, and creativity. With teams battling across unique games, only the sharpest and most synchronized will rise to the top and claim ultimate glory!",
+    date: "August 23, 2025",
+    location: "Manipal University, AB1",
+    registrationLink: "https://forms.gle/M4fRphzutbPdAQvd7",
+    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "",          // Google Drive link (only needed when status is "available")
+    tags: ["teamwork wins", "battle of brains", "outsmart outplay"],
+    organizer: "Cyber Space Club",
+  },
+  {
+    id: 2,
+    name: "Modular Nexus",
+    image: modularImage,
+    description:
+      "The ultimate IoT gamified challenge where learning meets competition! Kick off with a fun IoT crash course, then dive into a live quiz with scoreboard & anchoring to earn points 💰. Use your points to buy topics & lifelines, build creative block diagrams, and finally pitch your big idea on stage. With multiple chances to win 🏆 and recognition at every stage, A pure knowledge + energy + masti, and yes, no prior IoT expertise needed! ",
+    date: "August 24, 2025",
+    location: "Manipal University, AB1",
+    registrationLink: "https://forms.gle/YQmB4iYtVAhrRSTz7",
+    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "https://drive.google.com/drive/folders/1_bfrdrTvUyLIiEu5jy1RHRtYjxGO28Nd?usp=sharing",          // Google Drive link (only needed when status is "available")
+    tags: ["IoT challenge", "score and shine", "gamified learning"],
+    organizer: "Cyber Space Club",
+  },
+  {
+    id: 3,
     name: "Hack n' Earn 2.0",
     image: hacknearnImage,
     description:
@@ -18,13 +48,13 @@ export const events = [
     date: "July 14, 2025",
     location: "Hacker Earth",
     registrationLink: "https://forms.gle/vk7VD91A5xf9jSYp7",
-    certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "https://drive.google.com/drive/folders/1_bfrdrTvUyLIiEu5jy1RHRtYjxGO28Nd?usp=sharing",          // Google Drive link (only needed when status is "available")
     tags: ["skillshot", "precision", "bitwise", "stacktrace"],
     organizer: "Cyber Space Club",
   },
   {
-    id: 2,
+    id: 4,
     name: "Build & Deploy 2.0",
     image: builddeploy2Image,
     description:
@@ -38,7 +68,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 3,
+    id: 5,
     name: "Capture the Flag",
     image: captureflagImage,
     description:
@@ -52,7 +82,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 4,
+    id: 6,
     name: "Alice in Borderland",
     image: aliceImage,
     description:
@@ -66,7 +96,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 5,
+    id: 7,
     name: "Bounty Bonanza 2.0",
     image: bountyImage,
     description:
@@ -80,7 +110,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 6,
+    id: 8,
     name: "Build Fest",
     image: buildfestImage,
     description:
@@ -94,7 +124,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 7,
+    id: 9,
     name: "Battle Blitz 2.0",
     image: battleImage,
     description:
@@ -108,7 +138,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 8,
+    id: 10,
     name: "Error Odyssey 2.0",
     image: errorImage,
     description:
@@ -122,7 +152,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 9,
+    id: 11,
     name: "AI vs Human Debate",
     image: aihumanImage,
     description:
