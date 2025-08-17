@@ -19,7 +19,7 @@ export const events = [
       "A high-energy, multi-round showdown where teamwork, strategy, and fun collide. From bluffing mind games to blind mazes, each round brings a new twist to challenge skill, trust, and creativity. With teams battling across unique games, only the sharpest and most synchronized will rise to the top and claim ultimate glory!",
     date: "August 23, 2025",
     location: "Manipal University, AB1",
-    registrationLink: "https://forms.gle/M4fRphzutbPdAQvd7",
+    registrationLink: "https://forms.gle/nkCMbajshYxp8ZDb9",
     certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "",          // Google Drive link (only needed when status is "available")
     tags: ["teamwork wins", "battle of brains", "outsmart outplay"],
@@ -33,7 +33,7 @@ export const events = [
       "The ultimate IoT gamified challenge where learning meets competition! Kick off with a fun IoT crash course, then dive into a live quiz with scoreboard & anchoring to earn points 💰. Use your points to buy topics & lifelines, build creative block diagrams, and finally pitch your big idea on stage. With multiple chances to win 🏆 and recognition at every stage, A pure knowledge + energy + masti, and yes, no prior IoT expertise needed! ",
     date: "August 24, 2025",
     location: "Manipal University, AB1",
-    registrationLink: "https://forms.gle/YQmB4iYtVAhrRSTz7",
+    registrationLink: "https://forms.gle/nkCMbajshYxp8ZDb9",
     certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "https://drive.google.com/drive/folders/1_bfrdrTvUyLIiEu5jy1RHRtYjxGO28Nd?usp=sharing",          // Google Drive link (only needed when status is "available")
     tags: ["IoT challenge", "score and shine", "gamified learning"],
