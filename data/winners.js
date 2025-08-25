@@ -1,4 +1,14 @@
 export const eventWinners = {
+    "PlayTopia": [
+        { name: "Team TMKOC", position: 1 },
+        { name: "Team Space Junkies", position: 2 },
+        { name: "Team Khatarnaak Khopdi", position: 3 },
+    ],
+    "Modular Nexus": [
+        { name: "Team Aks", position: 1 },
+        { name: "Team Thingkers", position: 2 },
+        { name: "Team Rocket", position: 3 },
+    ],
     "Hack n' Earn 2.0": [
         { name: "Purvanshi Khandelwal", position: 1 },
         { name: "Shlok Mathurkar", position: 2 },
