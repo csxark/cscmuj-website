@@ -20,8 +20,8 @@ export const events = [
     date: "August 24, 2025",
     location: "Manipal University, AB1",
     registrationLink: "https://forms.gle/nkCMbajshYxp8ZDb9",
-    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
-    certificateLink: "https://drive.google.com/drive/folders/1_bfrdrTvUyLIiEu5jy1RHRtYjxGO28Nd?usp=sharing",          // Google Drive link (only needed when status is "available")
+    certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
     tags: ["IoT challenge", "score and shine", "gamified learning"],
     organizer: "Cyber Space Club",
   },

@@ -378,29 +378,11 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={SuhaniDeep}
-              name="Suhani Deep"
-              post="Head of Media"
-              link1="https://www.linkedin.com/in/suhani-deep-b6a259334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-              link2="https://www.instagram.com/suhaaknee?igsh=MXJiZ2d4bjh4ZXJuOQ=="
-            />
-          </div>
-          <div>
-            <Person
               img={RandeepSinghChauhan}
               name="Randeep Singh Chauhan"
               post="Head of ProdOps"
               link1="https://www.linkedin.com/in/randeep-singh-chauhan-3568a126b" 
               link2="https://www.instagram.com/rx_chauhan_2005?igsh=d2djcWN4YW5vZXp1"
-            />
-          </div>
-          <div>
-            <Person
-              img={KashikaBhardwaj}
-              name="Kashika Bhardwaj"
-              post="Head of Research"
-              link1="https://www.linkedin.com/in/kashika-bhardwaj?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              link2="https://www.instagram.com/kashika.bhardwaj__?igsh=MW5vdGhpeGl6MXFvNA=="
             />
           </div>
           <div>
@@ -419,15 +401,6 @@ const TeamPage = () => {
               post="Joint Head of Curations"
               link1="https://www.linkedin.com/in/adityaakhanna?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               link2="https://www.instagram.com/adityaakhanna_?igsh=aTZ6N2J2dXh6Y3J3"
-            />
-          </div>
-          <div>
-            <Person
-              img={CheedellaSudipta}
-              name="Cheedella Sudipta"
-              post="Joint Head of Corporate Affairs"
-              link1="https://www.linkedin.com/in/sudipta-cheedella-334ba335a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              link2="https://www.instagram.com/sud.jpg_?igsh=NWkyYzI2bXR4NXo0"
             />
           </div>
           <div>
@@ -536,15 +509,6 @@ const TeamPage = () => {
               post="Joint Head of Media"
               link1="https://www.linkedin.com/in/vrinda-goel-534258349"
               link2="https://www.instagram.com/v_goel0612?igsh=MTBvN2lnYTVsbjdhdw=="
-            />
-          </div>
-          <div>
-            <Person
-              img={PranavBharara}
-              name="Pranav Bharara"
-              post="Joint Head of Media"
-              link1="http://www.linkedin.com/in/pranav-bharara-ba6203207"
-              link2="https://www.instagram.com/pranavbharara/"
             />
           </div>
           <div>
@@ -665,24 +629,6 @@ const TeamPage = () => {
           </div>
           <div>
             <Person
-              img={SudikshaMishra}
-              name="Sudiksha Mishra"
-              post="Senior Coordinator of Events"
-              link1="https://in.linkedin.com/in/sudiksha-mishra-a79a05286"
-              link2="https://www.instagram.com/__sudiksha.__?igsh=MW5jNG93MDcxY3lkNw%3D%3D&utm_source=qr"
-            />
-          </div>
-          <div>
-            <Person
-              img={ParthGupta}
-              name="Parth Gupta"
-              post="Senior Coordinator of Events"
-              link1="https://www.linkedin.com/in/parth-gupta-3553972b6"
-              link2="https://www.instagram.com/parth_1702?igsh=a280OWJ5ZTNvMXoz"
-            />
-          </div>
-          <div>
-            <Person
               img={VedantShrivastav}
               name="Vedant Shrivastav"
               post="Senior Coordinator of Programs"
@@ -706,15 +652,6 @@ const TeamPage = () => {
               post="Senior Coordinator of Programs"
               link1="https://www.linkedin.com/in/chaitanya-chodankar-07351b31a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               link2="https://www.instagram.com/_.chetan.03._?igsh=MWIxaHJ4NW0wb2xjaA%3D%3D&utm_source=qr"
-            />
-          </div>
-          <div>
-            <Person
-              img={ShreyansChordia}
-              name="Shreyans Chordia"
-              post="Senior Coordinator Marketing"
-              link1="https://www.linkedin.com/in/shreyans-chordia-b7b897339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              link2="https://www.instagram.com/shreyans.chordia?igsh=MWV1aTJ3MzIyMGk2ag=="
             />
           </div>
           <div>
