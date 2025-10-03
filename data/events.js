@@ -9,10 +9,39 @@ import builddeploy2Image from "../assets/events/builddep2.png"
 import hacknearnImage from "../assets/events/hackearn2.png";
 import playtopiaImage from "../assets/events/playtopia.png";
 import modularImage from "../assets/events/Mnexus.png";
+import awarenessImage from '../assets/events/cac.png';
+import rewindImage from '../assets/events/rewindnrecode.png';
 
 export const events = [
   {
     id: 1,
+    name: "Rewind & Recode",
+    image: rewindImage,
+    description: "Get ready for 24 hours of non-stop coding and creativity! 🚀 Teaming up with IIIT-B for an exciting Hackathon where brilliant minds come together to solve real-world challenges, build innovative solutions, and push the limits of technology. It’s more than just a competition; it’s a celebration of ideas, teamwork, and unstoppable energy!",
+    date: "October 10, 2025",
+    location: "Manipal University, AB1",
+    registrationLink: "https://forms.gle/J1kyzVu5mi8AUc6EA",
+    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
+    tags: ["D3-Tech Fest", "code for change", "innovation unleashed"],
+    organizer: "Cyber Space Club",
+  },
+  {
+    id: 2,
+    name: "Cyber Awareness Camp",
+    image: awarenessImage,
+    description:
+      "An awareness camp aimed at educating school children about safe and responsible use of the internet 🌐. As part of this initiative, we will be visiting different schools 🏫 to introduce students to the basics of cybersecurity 🔐, including online safety, protection of personal information, prevention of cyberbullying, and the importance of strong digital habits. This will empower young learners with essential knowledge and practices that help them navigate the digital world securely and confidently, fostering a culture of cyber safety from an early age 🌱",
+    date: "October 7, 2025",
+    location: "Jaipur",
+    registrationLink: "https://forms.gle/nkCMbajshYxp8ZDb9",
+    certificateStatus: "",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
+    tags: ["digital wellness", "online safety", "responsible internet surfing"],
+    organizer: "Cyber Space Club",
+  },
+  {
+    id: 3,
     name: "Modular Nexus",
     image: modularImage,
     description:
@@ -20,13 +49,13 @@ export const events = [
     date: "August 24, 2025",
     location: "Manipal University, AB1",
     registrationLink: "https://forms.gle/nkCMbajshYxp8ZDb9",
-    certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
     tags: ["IoT challenge", "score and shine", "gamified learning"],
     organizer: "Cyber Space Club",
   },
   {
-    id: 2,
+    id: 4,
     name: "PlayTopia",
     image: playtopiaImage,
     description:
@@ -34,13 +63,13 @@ export const events = [
     date: "August 23, 2025",
     location: "Manipal University, AB1",
     registrationLink: "https://forms.gle/nkCMbajshYxp8ZDb9",
-    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
+    certificateStatus: "",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "",          // Google Drive link (only needed when status is "available")
     tags: ["teamwork wins", "battle of brains", "outsmart outplay"],
     organizer: "Cyber Space Club",
   },
   {
-    id: 3,
+    id: 5,
     name: "Hack n' Earn 2.0",
     image: hacknearnImage,
     description:
@@ -54,7 +83,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 4,
+    id: 6,
     name: "Build & Deploy 2.0",
     image: builddeploy2Image,
     description:
@@ -68,7 +97,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 5,
+    id: 7,
     name: "Capture the Flag",
     image: captureflagImage,
     description:
@@ -82,7 +111,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 6,
+    id: 8,
     name: "Alice in Borderland",
     image: aliceImage,
     description:
@@ -96,7 +125,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 7,
+    id: 9,
     name: "Bounty Bonanza 2.0",
     image: bountyImage,
     description:
@@ -110,7 +139,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 8,
+    id: 10,
     name: "Build Fest",
     image: buildfestImage,
     description:
@@ -124,7 +153,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 9,
+    id: 11,
     name: "Battle Blitz 2.0",
     image: battleImage,
     description:
@@ -138,7 +167,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 10,
+    id: 12,
     name: "Error Odyssey 2.0",
     image: errorImage,
     description:
@@ -152,7 +181,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 11,
+    id: 13,
     name: "AI vs Human Debate",
     image: aihumanImage,
     description:

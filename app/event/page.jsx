@@ -64,14 +64,20 @@ const EventModal = ({ event, onClose }) => {
             </p>
             <div className="flex flex-col xs:flex-row gap-2 sm:gap-3">
               {!isPastEvent ? (
-                <a
-                  href={event.registrationLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-6 py-2 bg-linear-to-r from-[#fe8d32] to-[#f8be19] rounded-lg text-white font-semibold hover:opacity-90 transition-opacity text-center"
-                >
-                  Register Now
-                </a>
+                event?.name?.toLowerCase() === 'cyber awareness camp' ? (
+                  <span className="px-6 py-2 bg-gray-700 rounded-lg text-gray-200 text-center">
+                    Event for School Students
+                  </span>
+                ) : (
+                  <a
+                    href={event.registrationLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-2 bg-linear-to-r from-[#fe8d32] to-[#f8be19] rounded-lg text-white font-semibold hover:opacity-90 transition-opacity text-center"
+                  >
+                    Register Now
+                  </a>
+                )
               ) : (
                 <span className="px-6 py-2 bg-gray-700 rounded-lg text-gray-300 text-center cursor-not-allowed">
                   Registration Closed
@@ -162,14 +168,20 @@ const EventCard = ({ event, index, onClick }) => {
 const PreviousEvents = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [showPastEvents, setShowPastEvents] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
   // Separate past and upcoming events
   const currentDate = new Date();
   const upcomingEvents = events.filter(event => new Date(event.date) >= currentDate);
   const pastEvents = events.filter(event => new Date(event.date) < currentDate);
 
+  // Filter past events based on search term
+  const filteredPastEvents = pastEvents.filter(event =>
+    event.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   // Display events based on the selected tab
-  const displayEvents = showPastEvents ? pastEvents : upcomingEvents;
+  const displayEvents = showPastEvents ? filteredPastEvents : upcomingEvents;
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] relative">
@@ -200,6 +212,26 @@ const PreviousEvents = () => {
             </button>
           </div>
         </div>
+
+        {/* Search bar for past events */}
+        {showPastEvents && (
+          <div className="flex justify-center mb-8">
+            <div className="relative w-full max-w-md">
+              <input
+                type="text"
+                placeholder="Search past events..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full px-4 py-3 bg-[#1a1a1a] border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-[#fe8d32] transition-colors"
+              />
+              <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
+                <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        )}
 
         {displayEvents.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

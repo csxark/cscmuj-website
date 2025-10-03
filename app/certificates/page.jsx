@@ -263,7 +263,7 @@ const CertificatesPage = () => {
                           <circle cx="12" cy="12" r="10" fill="currentColor"/>
                           <rect x="6" y="11" width="12" height="2" fill="black"/>
                         </svg>
-                        Already Distributed
+                        Distributed
                       </span>
                     </div>
                   </div>
@@ -402,7 +402,7 @@ const CertificatesPage = () => {
                   <ul className="text-left list-disc list-inside space-y-2">
                     <li><span className="font-bold text-green-400">Ready</span>: Certificates for that event are available and you can download them right away.</li>
                     <li><span className="font-bold text-yellow-400">Coming Soon</span>: Certificates are still being prepared and will be available soon.</li>
-                    <li><span className="font-bold text-red-400">Already Distributed</span>: Certificates have already been handed out and are no longer available for download.</li>
+                    <li><span className="font-bold text-red-400">Distributed</span>: Certificates have already been handed out and are no longer available for download.</li>
                     <li><span className="font-bold text-gray-400">Other Events</span>: Certificates are either unavailable or not applicable.</li>
                   </ul>
                   <p className="mt-3">Events are grouped by the status of their certificates for your convenience. This way, you can quickly find and download your certificates or check the status of upcoming ones.</p>
