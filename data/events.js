@@ -5,7 +5,7 @@ import buildfestImage from "../assets/events/build.jpg";
 import bountyImage from "../assets/events/bounty.jpg";
 import aliceImage from "../assets/events/alice.jpg";
 import captureflagImage from "../assets/events/captureflag.jpg";
-import builddeploy2Image from "../assets/events/builddep2.png"
+import builddeploy2Image from "../assets/events/builddep2.png";
 import hacknearnImage from "../assets/events/hackearn2.png";
 import playtopiaImage from "../assets/events/playtopia.png";
 import modularImage from "../assets/events/Mnexus.png";
@@ -20,7 +20,7 @@ export const events = [
     description: "Get ready for 24 hours of non-stop coding and creativity! 🚀 Teaming up with IIIT-B for an exciting Hackathon where brilliant minds come together to solve real-world challenges, build innovative solutions, and push the limits of technology. It’s more than just a competition; it’s a celebration of ideas, teamwork, and unstoppable energy!",
     date: "October 10, 2025",
     location: "Manipal University, AB1",
-    registrationLink: "https://forms.gle/J1kyzVu5mi8AUc6EA",
+    registrationLink: "https://unstop.com/p/rewind-and-recode-rajasthan-d3-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-bhubaneswa-1545708",
     certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
     tags: ["D3-Tech Fest", "code for change", "innovation unleashed"],
