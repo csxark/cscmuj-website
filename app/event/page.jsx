@@ -79,9 +79,15 @@ const EventModal = ({ event, onClose }) => {
                   </a>
                 )
               ) : (
-                <span className="px-6 py-2 bg-gray-700 rounded-lg text-gray-300 text-center cursor-not-allowed">
-                  Registration Closed
-                </span>
+                event?.name?.toLowerCase() === 'cyber awareness camp' ? (
+                  <span className="px-6 py-2 bg-gray-700 rounded-lg text-gray-200 text-center">
+                    Event for School Students Only
+                  </span>
+                ) : (
+                  <span className="px-6 py-2 bg-gray-700 rounded-lg text-gray-300 text-center cursor-not-allowed">
+                    Registration Closed
+                  </span>
+                )
               )}
               
 

@@ -64,6 +64,15 @@ const Navbar = () => {
           </Link>
         </li>
         <li
+          className="px-[12px] hover:text-[#fe8d32] rounded-xs"
+          key={`problems`}
+        >
+          <Link href="/problems">
+            Problems
+            <div />
+          </Link>
+        </li>
+        <li
           className="px-[12px] mr-3 hover:text-[#fe8d32] rounded-xs"
           key={`team`}
         >
