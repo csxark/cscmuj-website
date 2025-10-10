@@ -63,8 +63,8 @@ export const events = [
     date: "August 23, 2025",
     location: "Manipal University, AB1",
     registrationLink: "https://forms.gle/nkCMbajshYxp8ZDb9",
-    certificateStatus: "",                                                                                   // "available", "preparing", or "distributed"
-    certificateLink: "",          // Google Drive link (only needed when status is "available")
+    certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "https://drive.google.com/drive/folders/1_zk3jlp-i9zvoyU5ZjsmtD3Nk4sjKMK5?usp=sharing",          // Google Drive link (only needed when status is "available")
     tags: ["teamwork wins", "battle of brains", "outsmart outplay"],
     organizer: "Cyber Space Club",
   },
