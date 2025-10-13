@@ -26,7 +26,7 @@ const LeaderboardPage = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("EvaluationSheet.csv")                                                                     // remove/add the file here
+    fetch("EvalSheet.csv")                                                                     // remove/add the file here
       .then(res => {
         if (!res.ok) throw new Error("Leaderboard Data Coming Soon...");
         return res.text();
