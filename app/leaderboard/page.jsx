@@ -26,9 +26,9 @@ const LeaderboardPage = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("EvalSheet.csv")                                                                     // remove/add the file here
+    fetch("")                                                                     // remove/add the file here
       .then(res => {
-        if (!res.ok) throw new Error("Leaderboard Data Coming Soon...");
+        if (!res.ok) throw new Error("Leaderboards Coming Soon...");
         return res.text();
       })
       .then(csv => {
@@ -56,7 +56,7 @@ const LeaderboardPage = () => {
           ) : error ? (
             <p className="text-red-400 text-lg text-center">{error}</p>
           ) : data.rows.length === 0 ? (
-            <p className="text-[#ffae53] text-lg text-center">Leaderboard Data Coming Soon...</p>
+            <p className="text-[#ffae53] text-lg text-center">Leaderboards Coming Soon...</p>
           ) : (
             <div className="overflow-x-auto w-full">
               <table className="min-w-full text-left text-white">
