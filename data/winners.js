@@ -1,4 +1,9 @@
 export const eventWinners = {
+    "Rewind & Recode": [
+        { name: "Team Inglorious Coders", position: 1 },
+        { name: "Team Bits & Bytes", position: 2 },
+        { name: "Team Highlanders", position: 3 },
+    ],
     "PlayTopia": [
         { name: "Team TMKOC", position: 1 },
         { name: "Team Space Junkies", position: 2 },
